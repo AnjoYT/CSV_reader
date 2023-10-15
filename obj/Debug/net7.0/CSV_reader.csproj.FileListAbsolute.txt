@@ -1,0 +1,17 @@
+E:\REPOS\C#\CSV_reader\CSV_reader\obj\Debug\net7.0\CSV_reader.csproj.AssemblyReference.cache
+E:\REPOS\C#\CSV_reader\CSV_reader\obj\Debug\net7.0\CSV_reader.GeneratedMSBuildEditorConfig.editorconfig
+E:\REPOS\C#\CSV_reader\CSV_reader\obj\Debug\net7.0\CSV_reader.AssemblyInfoInputs.cache
+E:\REPOS\C#\CSV_reader\CSV_reader\obj\Debug\net7.0\CSV_reader.AssemblyInfo.cs
+E:\REPOS\C#\CSV_reader\CSV_reader\obj\Debug\net7.0\CSV_reader.csproj.CoreCompileInputs.cache
+E:\REPOS\C#\CSV_reader\CSV_reader\bin\Debug\net7.0\CSV_reader.exe
+E:\REPOS\C#\CSV_reader\CSV_reader\bin\Debug\net7.0\CSV_reader.deps.json
+E:\REPOS\C#\CSV_reader\CSV_reader\bin\Debug\net7.0\CSV_reader.runtimeconfig.json
+E:\REPOS\C#\CSV_reader\CSV_reader\bin\Debug\net7.0\CSV_reader.dll
+E:\REPOS\C#\CSV_reader\CSV_reader\bin\Debug\net7.0\CSV_reader.pdb
+E:\REPOS\C#\CSV_reader\CSV_reader\bin\Debug\net7.0\CsvHelper.dll
+E:\REPOS\C#\CSV_reader\CSV_reader\obj\Debug\net7.0\CSV_reader.csproj.CopyComplete
+E:\REPOS\C#\CSV_reader\CSV_reader\obj\Debug\net7.0\CSV_reader.dll
+E:\REPOS\C#\CSV_reader\CSV_reader\obj\Debug\net7.0\refint\CSV_reader.dll
+E:\REPOS\C#\CSV_reader\CSV_reader\obj\Debug\net7.0\CSV_reader.pdb
+E:\REPOS\C#\CSV_reader\CSV_reader\obj\Debug\net7.0\CSV_reader.genruntimeconfig.cache
+E:\REPOS\C#\CSV_reader\CSV_reader\obj\Debug\net7.0\ref\CSV_reader.dll
