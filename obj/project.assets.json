@@ -49,19 +49,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Bartek\\.nuget\\packages\\": {}
+    "C:\\Users\\Bartek\\.nuget\\packages\\": {},
+    "D:\\VisualStudio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\REPOS\\C#\\CSV_reader\\CSV_reader\\CSV_reader.csproj",
+      "projectUniqueName": "D:\\Repos\\C#\\CSV_reader\\CSV_reader.csproj",
       "projectName": "CSV_reader",
-      "projectPath": "E:\\REPOS\\C#\\CSV_reader\\CSV_reader\\CSV_reader.csproj",
+      "projectPath": "D:\\Repos\\C#\\CSV_reader\\CSV_reader.csproj",
       "packagesPath": "C:\\Users\\Bartek\\.nuget\\packages\\",
-      "outputPath": "E:\\REPOS\\C#\\CSV_reader\\CSV_reader\\obj\\",
+      "outputPath": "D:\\Repos\\C#\\CSV_reader\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\VisualStudio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Bartek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -108,7 +113,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

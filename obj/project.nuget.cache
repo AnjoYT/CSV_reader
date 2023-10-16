@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k9RJRw27SZEyVer1smPFllphMH9zB5NKqkMTPOWNdILELTD82YLW3eBBIDvPqPzae3gULyEHcgwlkmRArGVWZw==",
+  "dgSpecHash": "bjnSR2e8iFfNrwvKlHkVQlcWeudkW/cLtu2PZy4MkRd9J0swq3NDRo44xRH8wKa264zz+cNIAIRLGfsQYghBaw==",
   "success": true,
-  "projectFilePath": "E:\\REPOS\\C#\\CSV_reader\\CSV_reader\\CSV_reader.csproj",
+  "projectFilePath": "D:\\Repos\\C#\\CSV_reader\\CSV_reader.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bartek\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512"
   ],

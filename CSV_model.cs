@@ -13,14 +13,14 @@ namespace CSV_reader
 		public string Name { get; set; }
 		public string NameOfProcedure { get; set; }
 		public string Priority { get; set; }
-		public string? OrderDate { get; set; }
-		public string ExecutionDate { get; set; }
-		public string? ResultDate { get; set; }
+		public DateTime? OrderDate { get; set; }
+		public DateTime ExecutionDate { get; set; }
+		public DateTime? ResultDate { get; set; }
 		public string? Status { get; set; }
-		public string? HigOrderDate { get; set; }
+		public DateTime? HigOrderDate { get; set; }
 		public string Facility { get; set; }
 		public string OrderingDoctor { get; set; }
-		public string? ExecutingDoctor { get; set; }
+		public DateTime? ExecutingDoctor { get; set; }
 		public string? StudyId { get; set; }
 		public string? PatientId { get; set; }
 	}

@@ -53,7 +53,7 @@ namespace CSV_reader
 									FirstRecordNotFound = "";
 									Console.WriteLine("i: " + i + "    " + FirstExcelRecord.Name + " " + FirstExcelRecord.NameOfProcedure + " " + FirstExcelRecord.ExecutionDate);
 									Console.WriteLine("i: " + i + "    " + SecondExcelRecord.Name + " " + SecondExcelRecord.NameOfProcedure + " " + SecondExcelRecord.ExecutionDate);
-									list.Add(new CSV_model {Name = SecondExcelRecord.Name,NameOfProcedure = SecondExcelRecord.NameOfProcedure, Priority = SecondExcelRecord.Priority, OrderDate = SecondExcelRecord.OrderDate, ExecutionDate = SecondExcelRecord.ExecutionDate, ResultDate = SecondExcelRecord.ResultDate, Status = SecondExcelRecord.Status, HigOrderDate = SecondExcelRecord.HigOrderDate, Facility = SecondExcelRecord.Facility, OrderingDoctor= SecondExcelRecord.OrderingDoctor, ExecutingDoctor = SecondExcelRecord.ExecutingDoctor, StudyId = SecondExcelRecord.StudyId, PatientId = SecondExcelRecord.PatientId });
+									list.Add(new CSV_model {Name = SecondExcelRecord.Name,NameOfProcedure = SecondExcelRecord.NameOfProcedure, Priority = FirstExcelRecord.Priority, OrderDate = SecondExcelRecord.OrderDate, ExecutionDate = SecondExcelRecord.ExecutionDate, ResultDate = SecondExcelRecord.ResultDate, Status = SecondExcelRecord.Status, HigOrderDate = SecondExcelRecord.HigOrderDate, Facility = SecondExcelRecord.Facility, OrderingDoctor= SecondExcelRecord.OrderingDoctor, ExecutingDoctor = SecondExcelRecord.ExecutingDoctor, StudyId = SecondExcelRecord.StudyId, PatientId = SecondExcelRecord.PatientId });
 									
 									break;
 								}
@@ -63,7 +63,7 @@ namespace CSV_reader
 									FirstRecordNotFound = "";
 									Console.WriteLine("[NOT ACCURATE] i: " + i + "    " + FirstExcelRecord.Name + " " + FirstExcelRecord.NameOfProcedure + " " + FirstExcelRecord.ExecutionDate);
 									Console.WriteLine("[NOT ACCURATE] i: " + i + "    " + SecondExcelRecord.Name + " " + SecondExcelRecord.NameOfProcedure + " " + SecondExcelRecord.ExecutionDate);
-									list.Add(new CSV_model { Name = SecondExcelRecord.Name, NameOfProcedure = SecondExcelRecord.NameOfProcedure, Priority = SecondExcelRecord.Priority, OrderDate = SecondExcelRecord.OrderDate, ExecutionDate = SecondExcelRecord.ExecutionDate, ResultDate = SecondExcelRecord.ResultDate, Status = SecondExcelRecord.Status, HigOrderDate = SecondExcelRecord.HigOrderDate, Facility = SecondExcelRecord.Facility, OrderingDoctor = SecondExcelRecord.OrderingDoctor, ExecutingDoctor = SecondExcelRecord.ExecutingDoctor, StudyId = SecondExcelRecord.StudyId, PatientId = SecondExcelRecord.PatientId });
+									list.Add(new CSV_model { Name = SecondExcelRecord.Name, NameOfProcedure = SecondExcelRecord.NameOfProcedure, Priority = FirstExcelRecord.Priority, OrderDate = SecondExcelRecord.OrderDate, ExecutionDate = SecondExcelRecord.ExecutionDate, ResultDate = SecondExcelRecord.ResultDate, Status = SecondExcelRecord.Status, HigOrderDate = SecondExcelRecord.HigOrderDate, Facility = SecondExcelRecord.Facility, OrderingDoctor = SecondExcelRecord.OrderingDoctor, ExecutingDoctor = SecondExcelRecord.ExecutingDoctor, StudyId = SecondExcelRecord.StudyId, PatientId = SecondExcelRecord.PatientId });
 									
 									break;
 								}
@@ -73,7 +73,7 @@ namespace CSV_reader
 									FirstRecordNotFound = "";
 									Console.WriteLine("[NOT ACCURATE] i: " + i + "    " + FirstExcelRecord.Name + " " + FirstExcelRecord.NameOfProcedure + " " + FirstExcelRecord.ExecutionDate);
 									Console.WriteLine("[NOT ACCURATE] i: " + i + "    " + SecondExcelRecord.Name + " " + SecondExcelRecord.NameOfProcedure + " " + SecondExcelRecord.ExecutionDate);
-									list.Add(new CSV_model { Name = SecondExcelRecord.Name, NameOfProcedure = SecondExcelRecord.NameOfProcedure, Priority = SecondExcelRecord.Priority, OrderDate = SecondExcelRecord.OrderDate, ExecutionDate = SecondExcelRecord.ExecutionDate, ResultDate = SecondExcelRecord.ResultDate, Status = SecondExcelRecord.Status, HigOrderDate = SecondExcelRecord.HigOrderDate, Facility = SecondExcelRecord.Facility, OrderingDoctor = SecondExcelRecord.OrderingDoctor, ExecutingDoctor = SecondExcelRecord.ExecutingDoctor, StudyId = SecondExcelRecord.StudyId, PatientId = SecondExcelRecord.PatientId });
+									list.Add(new CSV_model { Name = SecondExcelRecord.Name, NameOfProcedure = SecondExcelRecord.NameOfProcedure, Priority = FirstExcelRecord.Priority, OrderDate = SecondExcelRecord.OrderDate, ExecutionDate = SecondExcelRecord.ExecutionDate, ResultDate = SecondExcelRecord.ResultDate, Status = SecondExcelRecord.Status, HigOrderDate = SecondExcelRecord.HigOrderDate, Facility = SecondExcelRecord.Facility, OrderingDoctor = SecondExcelRecord.OrderingDoctor, ExecutingDoctor = SecondExcelRecord.ExecutingDoctor, StudyId = SecondExcelRecord.StudyId, PatientId = SecondExcelRecord.PatientId });
 									break;
 								}
 								else if (CompareStrings.Compare(FirstExcelRecord.Name, SecondExcelRecord.Name) && CompareStrings.CompareParentheses(FirstExcelRecord.NameOfProcedure, SecondExcelRecord.NameOfProcedure) && CompareStrings.Compare(FirstExcelRecord.OrderingDoctor, SecondExcelRecord.OrderingDoctor))
@@ -82,7 +82,7 @@ namespace CSV_reader
 									FirstRecordNotFound = "";
 									Console.WriteLine("[NOT ACCURATE] i: " + i + "    " + FirstExcelRecord.Name + " " + FirstExcelRecord.NameOfProcedure + " " + FirstExcelRecord.ExecutionDate);
 									Console.WriteLine("[NOT ACCURATE] i: " + i + "    " + SecondExcelRecord.Name + " " + SecondExcelRecord.NameOfProcedure + " " + SecondExcelRecord.ExecutionDate);
-									list.Add(new CSV_model { Name = SecondExcelRecord.Name, NameOfProcedure = SecondExcelRecord.NameOfProcedure, Priority = SecondExcelRecord.Priority, OrderDate = SecondExcelRecord.OrderDate, ExecutionDate = SecondExcelRecord.ExecutionDate, ResultDate = SecondExcelRecord.ResultDate, Status = SecondExcelRecord.Status, HigOrderDate = SecondExcelRecord.HigOrderDate, Facility = SecondExcelRecord.Facility, OrderingDoctor = SecondExcelRecord.OrderingDoctor, ExecutingDoctor = SecondExcelRecord.ExecutingDoctor, StudyId = SecondExcelRecord.StudyId, PatientId = SecondExcelRecord.PatientId });
+									list.Add(new CSV_model { Name = SecondExcelRecord.Name, NameOfProcedure = SecondExcelRecord.NameOfProcedure, Priority = FirstExcelRecord.Priority, OrderDate = SecondExcelRecord.OrderDate, ExecutionDate = SecondExcelRecord.ExecutionDate, ResultDate = SecondExcelRecord.ResultDate, Status = SecondExcelRecord.Status, HigOrderDate = SecondExcelRecord.HigOrderDate, Facility = SecondExcelRecord.Facility, OrderingDoctor = SecondExcelRecord.OrderingDoctor, ExecutingDoctor = SecondExcelRecord.ExecutingDoctor, StudyId = SecondExcelRecord.StudyId, PatientId = SecondExcelRecord.PatientId });
 									break;
 								}
 								else
@@ -99,7 +99,8 @@ namespace CSV_reader
 						}
 						else { continue; }
 					}
-					foreach (var item in NotFound)
+                    File.WriteAllLines("C:\\Users\\Bartek\\Downloads\\HIG\\NotFound.txt", NotFound.Cast<string>());
+                    foreach (var item in NotFound)
 					{
 						Console.WriteLine(item);
 					}
@@ -107,6 +108,10 @@ namespace CSV_reader
 				csv3.WriteRecords(list);
 
 			}
+        }
+		private void AddToList(List<CSV_model> list,string Name, string NameOfProcedure,string Priority,string OrderDate,string ExecutionDate,string ResultDate,string Status,string HigOrderDate,string Facility,string OrderingDoctor,string ExecutingDoctor,string StudyId,string PatientId)
+		{
+            list.Add(new CSV_model { Name = Name, NameOfProcedure = NameOfProcedure, Priority = Priority, OrderDate = OrderDate, ExecutionDate = ExecutionDate, ResultDate = ResultDate, Status = Status, HigOrderDate = HigOrderDate, Facility = Facility, OrderingDoctor = OrderingDoctor, ExecutingDoctor = ExecutingDoctor, StudyId = StudyId, PatientId = PatientId });
         }
     }
 }
