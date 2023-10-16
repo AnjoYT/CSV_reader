@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="CsvHelper" Version="30.0.1" />
+    <PackageReference Include="Diacritics" Version="3.3.18" />
   </ItemGroup>
 
 </Project>

@@ -18,7 +18,7 @@ namespace CSV_reader
         {
 
         }
-        public static void CSV_load(string FirstFileName,string SecondFileName)
+        public static void CSV_load(string FirstFileName,string SecondFileName,string path)
         {
 			List<CSV_model> list = new List<CSV_model>();
 			var config = new CsvConfiguration(CultureInfo.InvariantCulture)
@@ -28,7 +28,7 @@ namespace CSV_reader
 				TrimOptions = TrimOptions.InsideQuotes,
 				
 			};
-			using (var writer = new StreamWriter("C:\\Users\\Bartek\\Downloads\\HIG\\file.csv"))
+			using (var writer = new StreamWriter(path + "\\file.csv"))
 			using (var csv3 = new CsvWriter(writer, config))
 			{
 				using (var FirstExcelReader = new StreamReader(FirstFileName))
@@ -99,7 +99,7 @@ namespace CSV_reader
 						}
 						else { continue; }
 					}
-                    File.WriteAllLines("C:\\Users\\Bartek\\Downloads\\HIG\\NotFound.txt", NotFound.Cast<string>());
+                    File.WriteAllLines(path + "\\NotFound.txt", NotFound.Cast<string>());
                     foreach (var item in NotFound)
 					{
 						Console.WriteLine(item);

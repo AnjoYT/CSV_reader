@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Diacritics.Extensions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,7 +23,7 @@ namespace CSV_reader
 		public static bool Compare(string FirstRecord, string SecondRecord)
 		{
 
-			if (WhiteSignsRemoval(FirstRecord) == WhiteSignsRemoval(SecondRecord)) 
+			if (WhiteSignsRemoval(FirstRecord).RemoveDiacritics() == WhiteSignsRemoval(SecondRecord).RemoveDiacritics()) 
 			{
 				return true;
 			}
