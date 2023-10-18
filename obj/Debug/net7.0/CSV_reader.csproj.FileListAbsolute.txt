@@ -33,3 +33,4 @@ D:\Repos\C#\CSV_reader\obj\Debug\net7.0\CSV_reader.pdb
 D:\Repos\C#\CSV_reader\obj\Debug\net7.0\CSV_reader.genruntimeconfig.cache
 D:\Repos\C#\CSV_reader\obj\Debug\net7.0\ref\CSV_reader.dll
 E:\REPOS\C#\CSV_reader\CSV_reader\bin\Debug\net7.0\Diacritics.dll
+D:\Repos\C#\CSV_reader\bin\Debug\net7.0\Diacritics.dll

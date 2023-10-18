@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lLL7jYSCrV6aoJZRcFVVo/BH0O/C66Pbm9msS2zpIgA/6cREY09NOwOotZU31XsQaDV68aopoA0DBnki3snNyg==",
+  "dgSpecHash": "dKwRA8zKcy/y/0Dn+TBNcEHvHIoYrjAH4ZSQCL4maRQDvq0cn0Wi+551UhFzzZNN4cYV1j/armDT8YQsdUIIgQ==",
   "success": true,
-  "projectFilePath": "E:\\REPOS\\C#\\CSV_reader\\CSV_reader\\CSV_reader.csproj",
+  "projectFilePath": "D:\\Repos\\C#\\CSV_reader\\CSV_reader.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bartek\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
     "C:\\Users\\Bartek\\.nuget\\packages\\diacritics\\3.3.18\\diacritics.3.3.18.nupkg.sha512"
